@@ -1,0 +1,34 @@
+{
+  "grammars": [
+    {
+      "name": "wng",
+      "camelcase": "Wng",
+      "scope": "source.wng",
+      "file-types": [".wng"],
+      "injection-regex": "^wng$",
+      "highlights": "queries/highlights.scm"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "The WNG parser.",
+    "authors": [
+      {
+        "name": "Jaco Malan",
+        "email": "jacom@codelog.co.za"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/tree-sitter/tree-sitter-wng"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true
+  }
+}
