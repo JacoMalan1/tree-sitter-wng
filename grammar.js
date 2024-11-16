@@ -32,7 +32,7 @@ module.exports = grammar({
       $.ident,
     ),
 
-    call: $ => seq($.ident, "(", $.exprs, ")"),
+    call: $ => seq($.ident, "(", optional($.exprs), ")"),
 
     expr: $ => choice(
       prec(3, $.call),

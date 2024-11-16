@@ -4,7 +4,9 @@
       "name": "wng",
       "camelcase": "Wng",
       "scope": "source.wng",
-      "file-types": [".wng"],
+      "file-types": [
+        "wng"
+      ],
       "injection-regex": "^wng$",
       "highlights": "queries/highlights.scm"
     }

@@ -162,8 +162,16 @@
           "value": "("
         },
         {
-          "type": "SYMBOL",
-          "name": "exprs"
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "SYMBOL",
+              "name": "exprs"
+            },
+            {
+              "type": "BLANK"
+            }
+          ]
         },
         {
           "type": "STRING",

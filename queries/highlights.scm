@@ -42,6 +42,11 @@
 (num_lit) @number
 (str_lit) @string
 (func_decl (ident) @function "(" @punctuation.bracket ")" @punctuation.bracket (func_body "{" @punctuation.bracket (stats) "}" @punctuation.bracket))
+(func_decl (func_body "{" @punctuation.bracket))
+(func_decl (func_body "}" @punctuation.bracket))
+(func_decl "(" @punctuation.bracket)
+(func_decl ")" @punctuation.bracket)
+(func_decl (ident) @function)
 (func_decl "->" @punctuation)
 (param ":" @punctuation)
 (param_list "," @punctuation.delimiter)
